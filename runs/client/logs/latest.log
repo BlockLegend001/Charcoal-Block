@@ -1,0 +1,142 @@
+[20:43:19] [main/INFO]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.3.52-beta, --assetIndex, asset-index, --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 5.0.6, --fml.mcVersion, 1.21.3, --fml.neoForgeVersion, 21.3.52-beta, --fml.neoFormVersion, 20241023.131943]
+[20:43:19] [main/INFO]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[20:43:19] [main/INFO]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[20:43:19] [main/WARN]: Configuration file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.3\runs\client\config\fml.toml is not correct. Correcting
+[20:43:19] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[20:43:19] [main/INFO]: Trying GL version 4.6
+[20:43:19] [main/INFO]: Requested GL version 4.6 got version 4.6
+[20:43:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23166!/ Service=ModLauncher Env=CLIENT
+[20:43:19] [main/WARN]: Configuration file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.3\runs\client\config\fml.toml is not correct. Correcting
+[20:43:20] [main/INFO]: Found mod file "neoforge-21.3.52-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.52-beta\neoforge-21.3.52-beta.jar])]
+[20:43:20] [main/INFO]: Found mod file "neoforge-21.3.52-beta.jar" [locator: neoforge devenv provider ([D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.3\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.3.52-beta\neoforge-21.3.52-beta.jar])]
+[20:43:20] [pool-2-thread-1/INFO]: GL info: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 566.14, NVIDIA Corporation
+[20:43:20] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/INFO]: Found mod file "neoforge-21.3.52-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/INFO]: Found mod file "RoughlyEnoughItems-neoforge-17.0.790.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/INFO]: Found mod file "cloth-config-neoforge-16.0.141-neoforge.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/INFO]: Found mod file "architectury-neoforge-14.0.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:43:20] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[20:43:20] [main/INFO]: Found 1 dependencies adding them to mods collection
+[20:43:20] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.3.52-beta.jar" [parent: neoforge-21.3.52-beta.jar, locator: jarinjar, reader: mod manifest]
+[20:43:20] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 14.0.3 (architectury)
+		Charcoal Block 1.21.3-0.1 (charcoalblock)
+		Cloth Config v16 API 16.0.141 (cloth_config)
+		Minecraft 1.21.3 (minecraft)
+		NeoForge 21.3.52-beta (neoforge)
+		Roughly Enough Items (REI) 17.0.790 (roughlyenoughitems)
+[20:43:21] [main/INFO]: Launching target 'forgeclientdev' with arguments [--version, 21.3.52-beta, --gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[20:43:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[30nov2024 20:43:25.325] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 240 Datafixer optimizations took 1452 milliseconds
+[30nov2024 20:43:32.218] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30nov2024 20:43:32.221] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30nov2024 20:43:32.227] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30nov2024 20:43:32.228] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30nov2024 20:43:32.230] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30nov2024 20:43:32.372] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.52-beta/neoforge-21.3.52-beta.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[30nov2024 20:43:32.372] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/NEOFORGE/1.21.3/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.3.52-beta/neoforge-21.3.52-beta.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[30nov2024 20:43:32.403] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[30nov2024 20:43:32.414] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[30nov2024 20:43:32.578] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[30nov2024 20:43:32.905] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.3.52-beta, for MC 1.21.3
+[30nov2024 20:43:33.632] [modloading-worker-0/INFO] [REI/]: [REI] Config loaded
+[30nov2024 20:43:33.726] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REICommonPlugin
+[30nov2024 20:43:33.728] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[30nov2024 20:43:33.764] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[30nov2024 20:43:33.781] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[30nov2024 20:43:33.785] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[30nov2024 20:43:33.792] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REITestPlugin for REIClientPlugin
+[30nov2024 20:43:33.797] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REITestCommonPlugin for REICommonPlugin
+[30nov2024 20:43:34.615] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[30nov2024 20:43:34.756] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/roughlyenoughitems, mod/cloth_config, mod/architectury, mod/charcoalblock, mod/neoforge
+[30nov2024 20:43:35.009] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[30nov2024 20:43:35.356] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[30nov2024 20:43:36.828] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model neoforge:bucket_milk#inventory:
+    minecraft:textures/atlas/blocks.png:neoforge:items/bucket_base
+    minecraft:textures/atlas/blocks.png:neoforge:items/bucket_cover
+    minecraft:textures/atlas/blocks.png:neoforge:items/bucket_fluid
+[30nov2024 20:43:37.231] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.spawner.fall
+[30nov2024 20:43:37.276] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (HyperX Cloud II Wireless)
+[30nov2024 20:43:37.277] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[30nov2024 20:43:37.562] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[30nov2024 20:43:37.572] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[30nov2024 20:43:37.572] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[30nov2024 20:43:37.573] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[30nov2024 20:43:37.574] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[30nov2024 20:43:37.578] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[30nov2024 20:43:37.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[30nov2024 20:43:37.579] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[30nov2024 20:43:37.580] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[30nov2024 20:43:37.716] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[30nov2024 20:43:37.879] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[30nov2024 20:43:37.881] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[30nov2024 20:43:37.881] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[30nov2024 20:43:37.882] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[30nov2024 20:43:37.894] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[30nov2024 20:43:58.501] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1339 recipes
+[30nov2024 20:43:58.518] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1448 advancements
+[30nov2024 20:43:58.707] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.3
+[30nov2024 20:43:58.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30nov2024 20:43:58.809] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\saves\New World\serverconfig\neoforge-server.toml
+[30nov2024 20:43:58.811] [Server thread/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file .\saves\New World\serverconfig\neoforge-server.toml is not correct. Correcting
+[30nov2024 20:43:59.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30nov2024 20:44:01.481] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:01.481] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:01.481] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:01.483] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:01.483] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:01.970] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30nov2024 20:44:02.097] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[30nov2024 20:44:02.099] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2724 ms
+[30nov2024 20:44:02.265] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[30nov2024 20:44:02.265] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[30nov2024 20:44:03.611] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:9e9a694c] logged in with entity id 35 at (39.5, 70.0, 37.5)
+[30nov2024 20:44:03.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[30nov2024 20:44:06.214] [Render thread/WARN] [REI/]: [REI] Found 1 existing reload task(s) after trying to terminate them!
+[30nov2024 20:44:06.231] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[30nov2024 20:44:06.237] [REI-ReloadPlugins/ERROR] [REI/]: [REI] REI Test Plugin is enabled! If you see this unintentionally, please report this!
+[30nov2024 20:44:06.240] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
+[30nov2024 20:44:06.240] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for START.
+[30nov2024 20:44:06.242] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
+[30nov2024 20:44:06.242] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[30nov2024 20:44:06.242] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) REITestCommonPlugin
+[30nov2024 20:44:06.242] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[30nov2024 20:44:06.242] [REI-ReloadPlugins/INFO] [REI/]: [REI] ========================================
+[30nov2024 20:44:06.354] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[30nov2024 20:44:06.354] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for START.
+[30nov2024 20:44:06.355] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (4):
+[30nov2024 20:44:06.355] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
+[30nov2024 20:44:06.356] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) REITestPlugin
+[30nov2024 20:44:06.356] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[30nov2024 20:44:06.356] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[30nov2024 20:44:06.356] [REI-ReloadPlugins/INFO] [REI/]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[30nov2024 20:44:06.754] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for START in 1.706 ms, totaling 131.6 ms.
+[30nov2024 20:44:06.758] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for START in 1.818 ms, totaling 400.9 ms.
+[30nov2024 20:44:06.763] [REI-ReloadPlugins/ERROR] [REI/]: [REI] REI Test Plugin is enabled! If you see this unintentionally, please report this!
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin starting main-reload for END.
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (3):
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) REITestCommonPlugin
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[30nov2024 20:44:06.765] [REI-ReloadPlugins/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[30nov2024 20:44:06.844] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[30nov2024 20:44:06.844] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin starting main-reload for END.
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI] Plugins (4):
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (-100,00) DefaultClientPluginImpl of DefaultClientPluginImpl [roughlyenoughitems]
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) REITestPlugin
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) HideIngredientsFromTagsPlugin of HideIngredientsFromTagsPlugin [roughlyenoughitems]
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI]  - (0,00) DefaultClientRuntimePlugin of DefaultClientRuntimePlugin [roughlyenoughitems]
+[30nov2024 20:44:06.845] [REI-ReloadPlugins/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[30nov2024 20:44:07.723] [REI-ReloadPlugins/INFO] [REI/]: [REI] REICommonPlugin finished post-reload for END in 793.6 μs, totaling 80.87 ms.
+[30nov2024 20:44:07.729] [REI-ReloadPlugins/INFO] [REI/]: [REI] REIClientPlugin finished post-reload for END in 3.048 ms, totaling 882.3 ms.
+[30nov2024 20:44:08.169] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30nov2024 20:44:08.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30nov2024 20:44:08.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30nov2024 20:44:08.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30nov2024 20:44:16.172] [Render thread/INFO] [REI/]: [REI] [REI Server Display Sync] Received server's request to set 1519 recipes.
+[30nov2024 20:44:16.695] [Render thread/WARN] [REI/]: [REI] Detected runtime DisplayRegistry modification, this can be extremely dangerous!
