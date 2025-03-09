@@ -6,7 +6,7 @@
     }
   ],
   "result": {
-    "id": "minecraft:charcoal",
+    "item": "minecraft:charcoal",
     "count": 9
   }
 }
