@@ -1,0 +1,1 @@
+- Added compatibility for JEI & REI
