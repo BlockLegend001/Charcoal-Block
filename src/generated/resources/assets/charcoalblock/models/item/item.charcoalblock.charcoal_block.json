@@ -1,0 +1,6 @@
+{
+  "parent": "charcoalblock:block/charcoal_block",
+  "textures": {
+    "layer0": "charcoalblock:items/item.charcoalblock.charcoal_block"
+  }
+}

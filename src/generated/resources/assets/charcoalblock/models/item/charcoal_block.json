@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:items/generated",
+  "textures": {
+    "layer0": "charcoalblock:items/item.charcoalblock.charcoal_block"
+  }
+}
