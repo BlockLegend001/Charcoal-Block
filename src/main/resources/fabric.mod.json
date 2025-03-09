@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "charcoalblock",
+  "version": "${version}",
+  "name": "CharcoalBlock",
+  "description": "A simply mod that adds charcoal block",
+  "authors": [
+    "Block_Legend001"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/charcoalblock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.charcoalblock.client.CharcoalBlockClient"
+    ],
+    "main": [
+      "com.blocklegend001.charcoalblock.CharcoalBlock"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
