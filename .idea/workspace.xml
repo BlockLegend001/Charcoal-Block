@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c6dbac3-13e0-4988-83bc-4d599d900197" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19\CharcoalBlock">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CharcoalBlock" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CharcoalBlock" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CharcoalBlock" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2c61BfyyZ3thUroLgm0ZqiZ1R39" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.1.19.1 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.19.2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.19.3 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.19.4 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20.2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.1.20.3 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CURSEFORGE_TOKEN.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CharcoalBlock [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CharcoalBlock [genIntellijRuns].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CharcoalBlock [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19.1 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19.2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19.3 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19.4 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19/CharcoalBlock [compileJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.19/CharcoalBlock [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.20 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.20.1 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.20.2 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.D:/Programmazione/Mod/Charcoal Block/FORGE/1.20.3 [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MODRINTH_TOKEN.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmazione/Mod/Charcoal Block/FORGE/1.19.1/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19.1\src\main\resources" />
+      <recent name="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19\CharcoalBlock\src\main\resources\assets\charcoalblock\textures\block" />
+      <recent name="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19\CharcoalBlock\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19\CharcoalBlock\src\main\resources\data\charcoalblock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CURSEFORGE_TOKEN">
+    <configuration name="CURSEFORGE_TOKEN" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="CURSEFORGE_TOKEN" value="58ce61ec-1e0b-4bd0-bef5-cbbb3af9d959" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishCurseforge" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CharcoalBlock [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CharcoalBlock build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" value="CharcoalBlock build" />
+        <option name="externalProjectPath" value="D:\Programmazione\Mod\Charcoal Block\FORGE\1.19\CharcoalBlock" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MODRINTH_TOKEN" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="MODRINTH_TOKEN" value="mrp_x5umIFyFrah1EZ6eUtGPsw1i50MU4EgbRgwJbnNEedVIuRrqlohbzJEbKiCX" />
+          </map>
+        </option>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishModrinth" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.runClient" />
+      <item itemvalue="Application.runData" />
+      <item itemvalue="Application.runGameTestServer" />
+      <item itemvalue="Application.runServer" />
+      <item itemvalue="Gradle.CharcoalBlock build" />
+      <item itemvalue="Gradle.MODRINTH_TOKEN" />
+      <item itemvalue="Gradle.CURSEFORGE_TOKEN" />
+      <item itemvalue="Gradle.CharcoalBlock [runClient]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CharcoalBlock [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c6dbac3-13e0-4988-83bc-4d599d900197" name="Changes" comment="" />
+      <created>1707417088040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707417088040</updated>
+      <workItem from="1707417089656" duration="1978000" />
+      <workItem from="1707419125938" duration="307000" />
+      <workItem from="1707419763393" duration="18000" />
+      <workItem from="1707419805381" duration="153000" />
+      <workItem from="1707419989026" duration="651000" />
+      <workItem from="1707495749195" duration="211000" />
+      <workItem from="1707496004533" duration="788000" />
+      <workItem from="1707572197651" duration="529000" />
+      <workItem from="1707572756572" duration="530000" />
+      <workItem from="1707573314711" duration="160000" />
+      <workItem from="1707573501179" duration="117000" />
+      <workItem from="1707573641561" duration="411000" />
+      <workItem from="1708192418056" duration="78000" />
+      <workItem from="1708197979457" duration="27000" />
+      <workItem from="1709389071683" duration="86000" />
+      <workItem from="1709391922389" duration="110000" />
+      <workItem from="1709392681306" duration="51000" />
+      <workItem from="1709393787607" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.spongepowered:mixin" />
+    <option featureType="dependencySupport" implementationName="java:net.minecraftforge:forge" />
+  </component>
+</project>
