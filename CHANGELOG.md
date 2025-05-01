@@ -1,1 +1,1 @@
-- Added REI compatibility
+- Fixed a bug that prevent the smelting of logs

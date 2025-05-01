@@ -29,9 +29,9 @@ public class ModRecipeProvider extends RecipeGenerator.RecipeProvider {
                         .offerTo(exporter);
 
                 createShapeless(RecipeCategory.MISC, Items.CHARCOAL, 9)
-                        .input(CharcoalBlock.CHARCOAL_BLOCK)
-                        .criterion(hasItem(CharcoalBlock.CHARCOAL_BLOCK), conditionsFromItem(CharcoalBlock.CHARCOAL_BLOCK))
-                        .offerTo(exporter);
+                        .input(CharcoalBlock.CHARCOAL_BLOCK_ITEM)
+                        .criterion(hasItem(CharcoalBlock.CHARCOAL_BLOCK_ITEM), conditionsFromItem(CharcoalBlock.CHARCOAL_BLOCK_ITEM))
+                        .offerTo(exporter, "charcoalblock:charcoal_shapeless");
             }
         };
 
