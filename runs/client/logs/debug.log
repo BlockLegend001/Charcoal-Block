@@ -1,0 +1,332 @@
+[26giu2025 12:30:57.202] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[26giu2025 12:30:57.204] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[26giu2025 12:30:57.217] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[26giu2025 12:30:57.282] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[26giu2025 12:30:57.377] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[26giu2025 12:30:57.380] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[26giu2025 12:30:57.383] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[26giu2025 12:30:57.386] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[26giu2025 12:30:57.388] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[26giu2025 12:30:57.390] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[26giu2025 12:30:57.410] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[26giu2025 12:30:57.514] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[26giu2025 12:30:57.527] [main/DEBUG] [mixin/]: Prepared 2 mixins in 0,321 sec (160,5ms avg) (0ms load, 0ms transform, 0ms plugin)
+[26giu2025 12:30:57.895] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[26giu2025 12:30:57.899] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[26giu2025 12:30:57.900] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[26giu2025 12:30:59.285] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@20a05b32
+[26giu2025 12:30:59.884] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 272 Datafixer optimizations took 625 milliseconds
+[26giu2025 12:30:59.941] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@20a05b32
+[26giu2025 12:31:00.038] [pool-6-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[26giu2025 12:31:00.039] [pool-6-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[26giu2025 12:31:00.040] [pool-6-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[26giu2025 12:31:00.043] [pool-6-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[26giu2025 12:31:00.045] [pool-6-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[26giu2025 12:31:00.954] [pool-6-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[26giu2025 12:31:00.954] [pool-6-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[26giu2025 12:31:02.229] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[26giu2025 12:31:02.229] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[26giu2025 12:31:02.230] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[26giu2025 12:31:02.230] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[26giu2025 12:31:02.231] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[26giu2025 12:31:02.231] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[26giu2025 12:31:02.232] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[26giu2025 12:31:02.233] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[26giu2025 12:31:02.233] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[26giu2025 12:31:02.234] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\rosar\AppData\Local\Temp (java.io.tmpdir)
+[26giu2025 12:31:02.234] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[26giu2025 12:31:02.235] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[26giu2025 12:31:02.235] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[26giu2025 12:31:02.236] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[26giu2025 12:31:02.237] [pool-6-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[26giu2025 12:31:02.238] [pool-6-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[26giu2025 12:31:04.120] [pool-6-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[26giu2025 12:31:04.156] [pool-6-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[26giu2025 12:31:04.659] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26giu2025 12:31:04.660] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26giu2025 12:31:04.662] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[26giu2025 12:31:04.663] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[26giu2025 12:31:04.664] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[26giu2025 12:31:04.665] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[26giu2025 12:31:04.686] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[26giu2025 12:31:04.696] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.blocklegend001.charcoalblock.CharcoalBlock]
+[26giu2025 12:31:04.698] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[26giu2025 12:31:04.715] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for charcoalblock
+[26giu2025 12:31:04.717] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.charcoalblock.CharcoalBlock for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.718] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.charcoalblock.CharcoalBlock.addCreative(net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent) to the event bus of mod charcoalblock
+[26giu2025 12:31:04.721] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.blocklegend001.charcoalblock.datagen.ModDataGenerator for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.721] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.6.19-beta
+[26giu2025 12:31:04.721] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 8.0.5
+[26giu2025 12:31:04.721] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.6.19-beta, for MC 1.21.6
+[26giu2025 12:31:04.723] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void com.blocklegend001.charcoalblock.datagen.ModDataGenerator.onGatherData(net.neoforged.neoforge.data.event.GatherDataEvent$Client) to the event bus of mod charcoalblock
+[26giu2025 12:31:04.739] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[26giu2025 12:31:04.742] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[26giu2025 12:31:04.779] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[26giu2025 12:31:04.795] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[26giu2025 12:31:04.796] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.810] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[26giu2025 12:31:04.810] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[26giu2025 12:31:04.811] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4f1a548a
+[26giu2025 12:31:04.816] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[26giu2025 12:31:04.816] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[26giu2025 12:31:04.819] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[26giu2025 12:31:04.819] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[26giu2025 12:31:04.819] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[26giu2025 12:31:04.820] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[26giu2025 12:31:04.821] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[26giu2025 12:31:04.825] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[26giu2025 12:31:04.825] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[26giu2025 12:31:04.825] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[26giu2025 12:31:04.829] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[26giu2025 12:31:04.830] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.830] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[26giu2025 12:31:04.831] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.833] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[26giu2025 12:31:04.833] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.model.data.ModelDataManager for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.834] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.model.data.ModelDataManager.onChunkUnload(net.neoforged.neoforge.event.level.ChunkEvent$Unload) to the game event bus
+[26giu2025 12:31:04.835] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.835] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[26giu2025 12:31:04.836] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.ParticleBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.839] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.ParticleBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterParticles) to the game event bus
+[26giu2025 12:31:04.839] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.ParticleBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
+[26giu2025 12:31:04.840] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.NeoForgeRenderPipelines for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.851] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method static void net.neoforged.neoforge.client.NeoForgeRenderPipelines.registerPipelines(net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent) to the event bus of mod neoforge
+[26giu2025 12:31:04.851] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.853] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRenderLevelStage(net.neoforged.neoforge.client.event.RenderLevelStageEvent$AfterBlockEntities) to the game event bus
+[26giu2025 12:31:04.853] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer.onRegisterClientCommands(net.neoforged.neoforge.client.event.RegisterClientCommandsEvent) to the game event bus
+[26giu2025 12:31:04.853] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[26giu2025 12:31:04.854] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[26giu2025 12:31:04.854] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[26giu2025 12:31:04.861] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[26giu2025 12:31:04.937] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[26giu2025 12:31:04.958] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[26giu2025 12:31:04.959] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[26giu2025 12:31:04.981] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Configuration file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.6\runs\client\config\neoforge-client.toml is not correct. Correcting
+[26giu2025 12:31:04.999] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[26giu2025 12:31:05.000] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.6\runs\client\config\neoforge-client.toml
+[26giu2025 12:31:05.013] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.6\runs\client\config\neoforge-client.toml for changes
+[26giu2025 12:31:05.013] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[26giu2025 12:31:05.015] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[26giu2025 12:31:05.015] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.6\runs\client\config\neoforge-common.toml
+[26giu2025 12:31:05.016] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.6\runs\client\config\neoforge-common.toml for changes
+[26giu2025 12:31:05.133] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/NEOFORGE/1.21.6/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.6.19-beta/neoforge-21.6.19-beta.jar%23222!/assets/.mcassetsroot' uses unexpected schema
+[26giu2025 12:31:05.134] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/NEOFORGE/1.21.6/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.6.19-beta/neoforge-21.6.19-beta.jar%23222!/data/.mcassetsroot' uses unexpected schema
+[26giu2025 12:31:05.173] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[26giu2025 12:31:05.185] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Block_Legend001
+[26giu2025 12:31:05.308] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[26giu2025 12:31:05.417] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[26giu2025 12:31:06.231] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/charcoalblock, mod/neoforge
+[26giu2025 12:31:06.416] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[26giu2025 12:31:06.420] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[26giu2025 12:31:06.427] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 7.336 ms
+[26giu2025 12:31:06.618] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[26giu2025 12:31:07.852] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.open
+[26giu2025 12:31:07.853] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.ambient
+[26giu2025 12:31:07.853] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.open', args=[]} for sound event: minecraft:block.iron_trapdoor.open
+[26giu2025 12:31:07.853] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.iron_trapdoor.close', args=[]} for sound event: minecraft:block.iron_trapdoor.close
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.pant
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.entity.wolf.ambient', args=[]} for sound event: minecraft:entity.wolf.whine
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.open
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.cherry_wood_trapdoor.close
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.ambient.cave', args=[]} for sound event: minecraft:ambient.cave
+[26giu2025 12:31:07.854] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.bamboo_wood_trapdoor.close
+[26giu2025 12:31:07.855] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.close
+[26giu2025 12:31:07.855] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.close
+[26giu2025 12:31:07.855] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.nether_wood_trapdoor.open
+[26giu2025 12:31:07.855] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.trapdoor.toggle', args=[]} for sound event: minecraft:block.wooden_trapdoor.open
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:ui.hud.bubble_pop
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.break
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.cactus_flower.place
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.ambient
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.activate
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.deactivate
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.attack
+[26giu2025 12:31:07.855] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.death
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.step
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.freeze
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.unfreeze
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.spawn
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.sway
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.creaking.twitch
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.break
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.fall
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hit
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.hurt
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.place
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.step
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.idle
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.creaking_heart.spawn
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.deadbush.idle
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.break
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.step
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.fall
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.ambient_water
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.place_in_water
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dried_ghast.transition
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.dry_grass.ambient
+[26giu2025 12:31:07.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open_long
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.open
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close_long
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.close
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.eyeblossom.idle
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.firefly_bush.idle
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.ambient
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.death
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.hurt
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.ghastling.spawn
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.ambient
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.death
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.hurt
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.riding
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.equip
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.unequip
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_up
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.happy_ghast.harness_goggles_down
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.horse_armor.unequip
+[26giu2025 12:31:07.857] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.break
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.step
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.place
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.hit
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.iron.fall
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.break
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.step
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.place
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.hit
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.leaf_litter.fall
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.untied
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.tied
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.lead.break
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.llama_carpet.unequip
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music_disc.tears
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.pale_hanging_moss.idle
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.parrot.imitate.creaking
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.sand.idle
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.shears.snip
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.spawner.fall
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.break
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.fall
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.place
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin.step
+[26giu2025 12:31:07.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.break
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.fall
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.hit
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.place
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:block.resin_bricks.step
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.ambient
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.death
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.growl
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.hurt
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.pant
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_puglin.whine
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.ambient
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.death
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.growl
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.hurt
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.pant
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_sad.whine
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.ambient
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.death
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.growl
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.hurt
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.pant
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_angry.whine
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.ambient
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.death
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.growl
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.hurt
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.pant
+[26giu2025 12:31:07.859] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_grumpy.whine
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.ambient
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.death
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.growl
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.hurt
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.pant
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_big.whine
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.ambient
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.death
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.growl
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.hurt
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.pant
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.wolf_cute.whine
+[26giu2025 12:31:07.860] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.saddle.unequip
+[26giu2025 12:31:08.011] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altoparlanti (Maonocaster G1 Neo)
+[26giu2025 12:31:08.011] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[26giu2025 12:31:08.081] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[26giu2025 12:31:08.157] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[26giu2025 12:31:08.160] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[26giu2025 12:31:08.166] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[26giu2025 12:31:08.170] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[26giu2025 12:31:08.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[26giu2025 12:31:08.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[26giu2025 12:31:08.215] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[26giu2025 12:31:08.216] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[26giu2025 12:31:08.219] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[26giu2025 12:31:08.347] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[26giu2025 12:31:08.359] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[26giu2025 12:31:08.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[26giu2025 12:31:08.396] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[26giu2025 12:31:12.502] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[26giu2025 12:31:13.593] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1409 recipes
+[26giu2025 12:31:13.614] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1522 advancements
+[26giu2025 12:31:13.634] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[26giu2025 12:31:13.738] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[26giu2025 12:31:13.819] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.6
+[26giu2025 12:31:13.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26giu2025 12:31:13.869] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[26giu2025 12:31:13.869] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\saves\New World\serverconfig\neoforge-server.toml
+[26giu2025 12:31:13.871] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[26giu2025 12:31:13.871] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file .\saves\New World\serverconfig\neoforge-server.toml
+[26giu2025 12:31:13.871] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file .\saves\New World\serverconfig\neoforge-server.toml for changes
+[26giu2025 12:31:14.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26giu2025 12:31:14.906] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26giu2025 12:31:14.906] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26giu2025 12:31:15.287] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 931 ms
+[26giu2025 12:31:15.291] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[26giu2025 12:31:15.487] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[26giu2025 12:31:15.488] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[26giu2025 12:31:15.581] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[26giu2025 12:31:15.610] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[26giu2025 12:31:15.644] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[26giu2025 12:31:15.644] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[26giu2025 12:31:15.654] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[26giu2025 12:31:15.710] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 31360 (auto-detected)
+[26giu2025 12:31:15.716] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[26giu2025 12:31:15.716] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[26giu2025 12:31:15.723] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[26giu2025 12:31:15.725] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[26giu2025 12:31:15.727] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 34:5a:60:ff:fe:27:db:0f (auto-detected)
+[26giu2025 12:31:15.780] [Render thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[26giu2025 12:31:15.995] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[26giu2025 12:31:15.995] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[26giu2025 12:31:15.996] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[26giu2025 12:31:15.996] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[26giu2025 12:31:15.996] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[26giu2025 12:31:16.366] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@52d8b689 into net.minecraft.network.Connection@50cb5663
+[26giu2025 12:31:16.370] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@782c3f4d into net.minecraft.network.Connection@6312f92
+[26giu2025 12:31:16.583] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6396d269 into net.minecraft.network.Connection@50cb5663
+[26giu2025 12:31:16.649] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Block_Legend001[local:E:0b21ddf7] logged in with entity id 84 at (39.5, 70.0, 37.5)
+[26giu2025 12:31:16.660] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 0 recipes of the following types: []
+[26giu2025 12:31:16.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Block_Legend001 joined the game
+[26giu2025 12:31:16.860] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[26giu2025 12:31:17.034] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[26giu2025 12:31:17.241] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[26giu2025 12:31:17.325] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[26giu2025 12:31:17.363] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[26giu2025 12:31:17.380] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[26giu2025 12:31:17.486] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[26giu2025 12:31:17.629] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[26giu2025 12:31:18.537] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[26giu2025 12:31:20.286] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
+[26giu2025 12:31:23.157] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4 advancements
+[26giu2025 12:31:25.723] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 5 advancements
+[26giu2025 12:31:27.969] [worldgen/ERROR] [net.minecraft.world.level.levelgen.feature.MonsterRoomFeature/]: Failed to fetch mob spawner entity at (-193, -9, 119)
