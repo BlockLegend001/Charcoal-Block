@@ -1,0 +1,16 @@
+package com.blocklegend001.charcoalblock.datagen;
+
+import com.blocklegend001.charcoalblock.CharcoalBlock;
+import net.minecraft.data.loottable.vanilla.VanillaBlockLootTableGenerator;
+import net.minecraft.registry.RegistryWrapper;
+
+public class ModBlockLootTablesProvider extends VanillaBlockLootTableGenerator {
+    public ModBlockLootTablesProvider(RegistryWrapper.WrapperLookup registries) {
+        super(registries);
+    }
+
+    @Override
+    public void generate() {
+        this.addDrop(CharcoalBlock.CHARCOAL_BLOCK);
+    }
+}
