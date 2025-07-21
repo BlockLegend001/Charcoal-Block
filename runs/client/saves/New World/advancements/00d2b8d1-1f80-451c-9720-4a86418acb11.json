@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-23 13:44:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2024-12-23 13:44:07 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/charcoal_from_block": {
+    "criteria": {
+      "has_Block{charcoalblock:charcoal_block}": "2025-07-03 10:58:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-07-03 10:58:50 +0200"
+    },
+    "done": true
+  },
+  "charcoalblock:recipes/building_blocks/charcoal_block": {
+    "criteria": {
+      "has_minecraft:charcoal": "2025-07-03 10:58:50 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4438
+}
