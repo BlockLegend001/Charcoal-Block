@@ -1,0 +1,41 @@
+[09ott2025 17:17:29.222] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 119ms
+[09ott2025 17:17:29.233] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.14 (CLIENT in DEV)
+[09ott2025 17:17:29.234] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\runs\clientData
+[09ott2025 17:17:29.274] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 4ms
+[09ott2025 17:17:29.276] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[09ott2025 17:17:29.327] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[09ott2025 17:17:29.414] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.10%%D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\build\resources\main;1.21.10%%D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\build\classes\java\main from env
+[09ott2025 17:17:29.576] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Jar[C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar]
+[09ott2025 17:17:29.576] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[09ott2025 17:17:29.579] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Charcoal Block 1.21.10-0.1 (charcoalblock)
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.5-beta (neoforge)
+[09ott2025 17:17:29.726] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[09ott2025 17:17:29.790] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[09ott2025 17:17:29.791] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - D:/Programmazione/Mod/Charcoal Block/NEOFORGE/1.21.10/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.10.5-beta/neoforge-21.10.5-beta.jar > net.neoforged.neoforge-coremods-21.10.5-beta.jar
+[09ott2025 17:17:30.023] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - charcoalblock (composite(folder(D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\build\resources\main), folder(D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\build\classes\java\main)))
+ - minecraft (composite(jar(D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.10\client-1.21.10-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.5-beta\neoforge-21.10.5-beta.jar))))
+ - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Charcoal Block\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.5-beta\neoforge-21.10.5-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
+[09ott2025 17:17:30.044] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 93ms
+[09ott2025 17:17:30.478] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[09ott2025 17:17:35.058] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [charcoalblock]
+[09ott2025 17:17:35.092] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.5-beta, for MC 1.21.10
+[09ott2025 17:17:35.854] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id charcoalblock
+[09ott2025 17:17:35.866] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id charcoalblock finished after 10 ms
+[09ott2025 17:17:35.866] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: CharcoalBlock Recipes
+[09ott2025 17:17:35.890] [main/INFO] [net.minecraft.data.DataGenerator/]: CharcoalBlock Recipes finished after 24 ms
+[09ott2025 17:17:35.890] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[09ott2025 17:17:35.905] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 14 ms
+[09ott2025 17:17:35.905] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - charcoalblock
+[09ott2025 17:17:35.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - charcoalblock finished after 51 ms
+[09ott2025 17:17:35.957] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 101 ms
+[09ott2025 17:17:35.962] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 9, old count: 9, new count: 10, removed stale: 0, written: 0
+[09ott2025 17:17:35.962] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 4b9b1c0e
+[09ott2025 17:17:35.962] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
