@@ -1,0 +1,23 @@
+[09ott2025 16:57:47.225] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 27, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, charcoalblock, --all, --output, D:\Programmazione\Mod\Charcoal Block\FORGE\1.21.10\src\generated\resources, --existing, D:\Programmazione\Mod\Charcoal Block\FORGE\1.21.10\src\main\resources]
+[09ott2025 16:57:47.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+[09ott2025 16:57:47.240] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.6 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[09ott2025 16:57:47.367] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[09ott2025 16:57:47.512] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[09ott2025 16:57:49.140] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[09ott2025 16:57:49.532] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 27, --mod, charcoalblock, --all, --output, D:\Programmazione\Mod\Charcoal Block\FORGE\1.21.10\src\generated\resources, --existing, D:\Programmazione\Mod\Charcoal Block\FORGE\1.21.10\src\main\resources]
+[09ott2025 16:57:55.333] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 60.0.0, for MC 1.21.10 with MCP 20251007.101210
+[09ott2025 16:57:55.335] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v60.0.0 Initialized
+[09ott2025 16:57:55.343] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[09ott2025 16:57:55.552] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [charcoalblock]
+[09ott2025 16:57:55.674] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/FORGE/1.21.10/build/fg_cache/net/minecraftforge/forge/1.21.10-60.0.0_mapped_official_1.21.10/forge-1.21.10-60.0.0_mapped_official_1.21.10.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[09ott2025 16:57:55.677] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/Programmazione/Mod/Charcoal%20Block/FORGE/1.21.10/build/fg_cache/net/minecraftforge/forge/1.21.10-60.0.0_mapped_official_1.21.10/forge-1.21.10-60.0.0_mapped_official_1.21.10.jar%230!/data/.mcassetsroot' uses unexpected schema
+[09ott2025 16:57:55.911] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id charcoalblock
+[09ott2025 16:57:56.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id charcoalblock finished after 182 ms
+[09ott2025 16:57:56.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: CharcoalBlock Recipes
+[09ott2025 16:57:56.121] [main/INFO] [net.minecraft.data.DataGenerator/]: CharcoalBlock Recipes finished after 25 ms
+[09ott2025 16:57:56.122] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[09ott2025 16:57:56.137] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 15 ms
+[09ott2025 16:57:56.137] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions
+[09ott2025 16:57:56.204] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions finished after 66 ms
+[09ott2025 16:57:56.204] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 294 ms
+[09ott2025 16:57:56.212] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 9, old count: 9, new count: 10, removed stale: 0, written: 0
