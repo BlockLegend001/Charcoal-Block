@@ -1,0 +1,5 @@
+// 26.2	2026-07-27T14:35:40.3178941	CharcoalBlock Recipes
+c6452a3f792a41b95beb53d2afca3f8dd00ad4f4 data/charcoalblock/advancement/recipes/building_blocks/charcoal_block.json
+f637a411102ab911a4653203dbb7f7c1be8b244e data/charcoalblock/recipe/charcoal_block.json
+366a55baae52a30599b82ec61451e38edd36b0ea data/minecraft/advancement/recipes/misc/charcoal_from_block.json
+2c7da317b70e3a6256ad38deccc0bc86a7471fe6 data/minecraft/recipe/charcoal_from_block.json
